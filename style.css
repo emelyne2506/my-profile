@@ -1,0 +1,70 @@
+body {
+	background-color:#B5E7F7 ;
+	color: white ;
+	font-family: Palatino ; 
+	font-weight: 500; 
+}
+
+h1 {
+	color : #382B5B;
+	font-family: Georgia;
+	font-weight: 1000; 
+}
+
+h2 {
+    color: #382B5B;
+    font-family: Palatino;
+    font-weight: 1000;
+    border: 2px solid #382B5B; /* Ajoute une bordure */
+    padding: 10px; /* Ajoute un espacement interne pour améliorer l'apparence */
+}
+
+a{color : #070707c;}
+a:hover{color : #B5E7F7 ;}
+
+
+
+.img-circle {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+div {
+    background: #2086B9;
+    padding: 20px;
+    margin: 50px auto;
+    width: 800px;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 20px 10px 30px rgba(0, 0, 0, 0.3); /* Ajoute une ombre */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div p {
+    text-align: center;
+}
+
+div img {
+    display: block;
+    margin: 0 auto; /* Centre l'image horizontalement */
+}
+ul {
+    list-style: none; /* Supprime les puces de la liste */
+    padding: 0; /* Supprime le padding par défaut de la liste */
+    margin: 0; /* Supprime la marge par défaut de la liste */
+    display: flex; /* Utilise l'affichage flexible pour aligner les icônes horizontalement */
+    justify-content: center; /* Centre horizontalement les éléments de la liste */
+}
+
+ul li {
+    margin: 0 10px; /* Ajoute un espacement horizontal entre les icônes */
+}
+
+ul li a {
+    text-decoration: none; /* Supprime la décoration de lien par défaut */
+}
